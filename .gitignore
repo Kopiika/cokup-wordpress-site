@@ -6,6 +6,9 @@
 /wp-content/upgrade/
 /wp-content/backups/
 
+/wp-content/upgrade/
+/wp-content/uploads/
+
 # Config files
 wp-config.php
 .env
