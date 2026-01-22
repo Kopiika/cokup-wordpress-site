@@ -1,0 +1,79 @@
+/* ==== SINGLE TIP BLOCK ==== */
+.cooking-tip-block {
+	background-color: #fff9e6; 
+	border-left: 4px solid #ff9900; 
+	padding: 15px 20px;
+	margin: 20px auto;
+	border-radius: 8px;
+	box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+	font-style: italic;
+	max-width: 500px; 
+	text-align: center;
+	
+}
+
+.cooking-tip-block .tip-content {
+	font-size: 15px;
+	margin-bottom: 8px;
+}
+
+.cooking-tip-block .tip-author {
+	font-size: 14px;
+	text-align: right;
+	color: #555;
+	margin-top: 12px;
+}
+
+/* ==== LIST OF COOKING TIPS ==== */
+.cooking-tips {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+	gap: 20px; 
+	margin: 30px 0;
+}
+
+/* Окрема картка поради */
+.cooking-tips .tip-card {
+	background-color: #fff9e6; /* світлий магічний фон */
+	border-left: 4px solid #ff9900; /* помаранчева лінія */
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+	font-style: italic;
+	transition: transform 0.3s, box-shadow 0.3s;
+	position: relative;
+}
+
+/* Hover ефект для картки */
+.cooking-tips .tip-card:hover {
+	transform: translateY(-5px);
+	box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+/* Заголовок поради */
+.cooking-tips .tip-card h3 {
+	font-size: 18px;
+	margin-bottom: 10px;
+	font-family: 'Cinzel', serif; 
+	color: #b35900; 
+}
+
+/* Текст поради */
+.cooking-tips .tip-card .tip-content {
+	font-size: 15px;
+	color: #333;
+	line-height: 1.5;
+}
+
+/* Автор поради */
+.cooking-tips .tip-card .tip-author {
+	font-size: 13px;
+	text-align: right;
+	color: #555;
+	margin-top: 12px;
+}
+
+.cooking-tips .tip-card::before {
+	content: '✨';
+	position:
+}
