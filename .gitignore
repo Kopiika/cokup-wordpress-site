@@ -1,0 +1,27 @@
+# WordPress core
+/wp-admin/
+/wp-includes/
+/wp-content/uploads/
+/wp-content/cache/
+/wp-content/upgrade/
+/wp-content/backups/
+
+# Config files
+wp-config.php
+.env
+
+# Logs
+*.log
+error_log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Node / build tools (if used)
+node_modules/
+dist/
+
+# IDE
+.idea/
+.vscode/
